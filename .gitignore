@@ -130,4 +130,6 @@ dmypy.json
 
 ## Unshared Data
 *i.csv
-
+## GEA files:
+go.obo
+gene2go
