@@ -20,9 +20,11 @@ Plot the fluorescence of hit strains grown in liquid SC.<br/>
 Colony_Analysis.py, Plate_Shuffling.py <br/>
 
 ### Data Files <br/>
-**QD_1.csv:** (Quadruplicate) Size and Yellowness raw and corrected data for colony quadruplicates. Data extracted from pictures in screen_sample/Screen1_9.9.21/ with Read_Plates.ipynb <br/>
-**GA_1.csv:** (Gene Analysis). Mean and std of colonies for each gene, raw and corrected data, data extracted from pictures in screen_sample/Screen1_9.9.21/ with Read_Plates.ipynb  <br/>
+**QD_1.csv:** (Quadruplicate) Size and Yellowness raw and corrected data for colony quadruplicates. File can be reproduced  with Read_Plates.ipynb and raw image files in screen_sample/Screen1_9.9.21/ <br/>
+**GA_1.csv:** (Gene Analysis). Mean and std of colonies for each gene, raw and corrected data. File can be reproduced  with Read_Plates.ipynb and raw image files in screen_sample/Screen1_9.9.21/ <br/>
+
 **Screens Descriptions::** <br/>
+**1.csv:**  Screen repeat with final antibiotic selection <br/>
 **2.csv:**  Screen repeat with final antibiotic selection <br/>
 **4.csv:**  Screen repeat with final antibiotic selection <br/>
 **6.csv:**  Screen repeat with final antibiotic selection <br/>
@@ -31,10 +33,10 @@ Colony_Analysis.py, Plate_Shuffling.py <br/>
 **For each screen, both QD and GA are available ** <br/>
 
 ### Raw Data <br/>
-**screen_sample/Screen1_9.9.21/** Images (24H) for screen1<br/>
+**screen_sample/Screen1_9.9.21/** Images (24H) for screen1 <br/>
 **BTX_chess/H48.png** Image used to compare BY_Ref and BY_Btx in Fig 3A<br/>
-**Liquid_Data/** Fluorescent Data for Hit Strains in liquid SC <br/>
-**Liquid_Data/BTX_stability.23.4.10** Fluorescent Data Confirming BTX stability for a week (Fig. S7) <br/>
+**Liquid_Data/** Fluorescent data for Hit Strains in liquid SC <br/>
+**Liquid_Data/BTX_stability.23.4.10/** Fluorescent Data Confirming BTX stability for a week (Fig. S7) <br/>
 
 **gene2go, go.obo:** For Go Enrichment Analysis. <br/>
 **Plate_Map.txt:** Stores gene positions in our KO library. <br/>
